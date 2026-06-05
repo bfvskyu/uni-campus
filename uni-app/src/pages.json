@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {"path": "pages/index/index", "style": {"navigationBarTitleText": "大学生服务中心"}},
+    {"path": "pages/login/index", "style": {"navigationBarTitleText": "登录"}},
+    {"path": "pages/login/change-pwd", "style": {"navigationBarTitleText": "修改密码"}},
+    {"path": "pages/login/forgot-pwd", "style": {"navigationBarTitleText": "找回密码"}},
+    {"path": "pages/search/index", "style": {"navigationBarTitleText": "搜索"}},
+    {"path": "pages/lost-found/index", "style": {"navigationBarTitleText": "失物招领"}},
+    {"path": "pages/lost-found/edit", "style": {"navigationBarTitleText": "发布信息"}},
+    {"path": "pages/lost-found-detail/index", "style": {"navigationBarTitleText": "详情"}},
+    {"path": "pages/recruitment/index", "style": {"navigationBarTitleText": "校园招聘"}},
+    {"path": "pages/recruitment-detail/index", "style": {"navigationBarTitleText": "招聘详情"}},
+    {"path": "pages/announcement/index", "style": {"navigationBarTitleText": "校园公告"}},
+    {"path": "pages/notification/index", "style": {"navigationBarTitleText": "消息"}},
+    {"path": "pages/announcement-detail/index", "style": {"navigationBarTitleText": "公告详情"}},
+    {"path": "pages/classroom/index", "style": {"navigationBarTitleText": "教室查询"}},
+    {"path": "pages/exam/index", "style": {"navigationBarTitleText": "考试与竞赛"}},
+    {"path": "pages/exam-detail/index", "style": {"navigationBarTitleText": "详情"}},
+    {"path": "pages/profile/index", "style": {"navigationBarTitleText": "个人中心"}},
+    {"path": "pages/profile/edit", "style": {"navigationBarTitleText": "编辑资料"}},
+    {"path": "pages/memo/index", "style": {"navigationBarTitleText": "我的备忘录"}},
+    {"path": "pages/profile/about", "style": {"navigationBarTitleText": "关于"}},
+    {"path": "pages/profile/help", "style": {"navigationBarTitleText": "帮助与反馈"}},
+    {"path": "pages/profile/calendar", "style": {"navigationBarTitleText": "校历"}},
+    {"path": "pages/admin/feedback", "style": {"navigationBarTitleText": "反馈中心"}},
+    {"path": "pages/admin/index", "style": {"navigationBarTitleText": "管理面板"}},
+    {"path": "pages/admin/announcement", "style": {"navigationBarTitleText": "公告管理"}},
+    {"path": "pages/admin/exam", "style": {"navigationBarTitleText": "考试管理"}},
+    {"path": "pages/admin/recruitment", "style": {"navigationBarTitleText": "招聘管理"}},
+    {"path": "pages/forum/index", "style": {"navigationBarTitleText": "校园论坛"}},
+    {"path": "pages/forum/create", "style": {"navigationBarTitleText": "发布帖子"}},
+    {"path": "pages/forum/detail", "style": {"navigationBarTitleText": "帖子详情"}},
+    {"path": "pages/forum/favorites", "style": {"navigationBarTitleText": "我的收藏"}}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "大学生服务中心",
+    "navigationBarBackgroundColor": "#7c3aed",
+    "backgroundColor": "#f5f6fa"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#7c3aed",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {"pagePath": "pages/index/index", "text": "首页"},
+      {"pagePath": "pages/notification/index", "text": "消息"},
+      {"pagePath": "pages/forum/index", "text": "论坛"},
+      {"pagePath": "pages/exam/index", "text": "考试"},
+      {"pagePath": "pages/profile/index", "text": "我"}
+    ]
+  }
+}
