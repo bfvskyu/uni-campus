@@ -1,0 +1,44 @@
+# === Java / SpringBoot ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# === IDE ===
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# === uni-app / Node ===
+node_modules/
+dist/
+unpackage/
+.hbuilderx/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Uploads ===
+campus-backend/uploads/
+campus-backend/src/main/resources/uploads/
+
+# === Application Config (含数据库密码) ===
+campus-backend/src/main/resources/application.yml
+campus-backend/src/main/resources/application-*.yml
+
+# === Misc ===
+*.bak
+*.tmp
+.env
